@@ -10,11 +10,8 @@ for (let i = 0; i < 256; i++) {
 
 let gridItems = document.querySelectorAll('.gridItem');
 
-console.log(gridItems);
-
 gridItems.forEach((gridItem) => {
     gridItem.addEventListener('mouseover', (e) => {
         e.target.classList.toggle('black');
-        console.log('hovered ' + e.target.id);
     })
 })
