@@ -4,11 +4,17 @@
     justify-content: space-evenly;
     gap: 10px 10px;
     width: 100%;
-    height: 1000px;
+    height: 90vh;
 }
 
-#gridContainer > * {
-    background-color: blue;
+.gridItem {
+    border-color: black;
+    border-width: 1%;
+    border-style: solid;
     flex-grow: 1;
-    width: 5.5%;
+    width: 5.1%;
+}
+
+.black {
+    background-color: black;
 }
